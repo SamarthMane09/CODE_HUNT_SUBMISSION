@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+
+body{
+  background-color: #eeeaee;
+}
+
+header{
+  margin-right: 4px;
+}
+
+
+.header_info
+{
+  background-color: #BEAEE2;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+  margin-left: 10px;
+  width: 89%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.app{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left
+{
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__right
+{
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+}
+
+.app_videos
+{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  background-color: #BEAEE2;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* width: 60vw; */
+  width: 93.5%;
+  height: 62vh;
+  margin-left: 60px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+#bunch-of-videos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: 100%;
+    overflow:scroll;
+    /* grid-template-columns: repeat(auto-fit, 400px);
+    grid-auto-rows: 400px;
+    grid-gap: 50px;*/
+} 
+
+#novideo {
+  vertical-align: middle;
+  border-style: none;
+  margin-left: 10vw;
+  height: 80vh;
+  margin-left: 30vw;
+}
+
+#novideo
+{
+  margin: 30%
+}
+
+.box_title
+{
+   padding: 5px;
+   color: black;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.3em;
+   font-weight: 600;
+}
+
+video{
+    width: 50%;
+    height: 100%; 
+    object-fit: cover; /*maintain aspect ratio*/
+    padding: 8px;
+}
+
+.header
+{
+  display: flex;
+  flex-direction: row;
+  padding: 5px 20px 20px 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 60px;
+  width: 100%; 
+  
+}
+
+.meeting_info
+{
+  margin-top:5px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  float:left;
+  margin-right: 2%;
+}
+
+.header_image img{
+  margin-top: 10px;
+}
+
+.app_controls
+{
+  background-color: #BEAEE2;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  text-align: center;
+  padding-left:20%;
+  /* position: fixed;
+  bottom: 0.5vh; */
+  /* left: 33%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto; */
+  margin-left: 6.8%;
+  width: 93.5%; 
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.incall_controls_block
+{
+  display: flex;
+  justify-content: center;
+
+}
+
+.incall_control
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  cursor: pointer;
+  padding: 8px, 10px;
+  margin-right: 15px;
+  
+}
+
+i.control {
+  display: inline-block;
+  border-radius: 100px;
+  /* box-shadow: 0px 0px 2px #888; */
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 0.6em 0.6em;
+  background-color: #6247aa;
+}
+
+i.control:hover{
+  background-color:  #58427c;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
+
+i.leaveroom
+{
+  background-color: #fa314a;
+  color: #fff7e0;
+}
+
+i.leaveroom:hover{
+  background-color: rgb(227,48,47);
+}
+
+i.endcall{
+  color: #fa314a; 
+  background-color: white;
+}
+
+i.endcall:hover{
+  background-color:#eeeaee ;
+}
+
+
+i.send_button
+{
+  color: white;
+}
+
+span
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+footer
+{
+  margin-top: 40px;
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer
+{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+  color: gray;
+  font-size: 13px;
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 600;
+}
+
+.send_message{
+  background-color: #6247aa;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 10px;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.send_message:hover{
+  background-color: #58427c
+
+}
+
+.chatbox
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #BEAEE2;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 15px 50px 15px 30px;  
+  width: 33vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  height: 99%;
+}
+
+.chatbox_chat_area
+{
+  flex-grow: 1;
+  overflow-y: auto;
+  height: 67vh;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #eeeaee;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.message
+{
+  display:inline-block;
+  background-color: white;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  padding-left: 10px;;
+}
+
+.message_user_div
+{
+  display: inline-block;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 5px;
+}
+
+.message_content_div
+{
+  display: inline-block;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 3px 5px;
+  color: black;
+}
+
+.chatbox_typing_area
+{
+  display: flex;
+  background-color: #eeeaee;
+  border-radius: 8px ;
+  padding: 5px 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.chatbox_typing_area input[type="text"]{
+  flex-grow: 1;
+  background-color: transparent;
+  border: 0.1px solid white;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  color: black;
+  font-size: 13.5px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin: 8px 0;
+}
+
+#after-video-leave-room
+{
+  width: 150px;
+  border: none;
+  background-color: #6247aa;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  margin-left: 49.0%;
+}
+
+#after-video-leave-room:hover{
+  background-color: rgb(227,48,47);
+  
+}
+
+
+hr{
+  margin-top: 1rem;
+  margin-left: 25vw;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 50%;
+  border-top: 1.5px solid rgba(0,0,0,.3);
+}
+
