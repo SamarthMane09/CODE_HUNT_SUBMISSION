@@ -32,6 +32,7 @@ A working prototype is in development, showcasing the platform’s core function
 - **Jatin Vishwakarma**
 - **Samarth Mane**
 - **Pranay Durutkar**
+- **Sujal Lokhande**
 
 ## Getting Started
 Follow these steps to set up the project on your local machine:
@@ -39,24 +40,23 @@ Follow these steps to set up the project on your local machine:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo-link.git
-Navigate to the project directory:
-bash
-Copy
+2. Navigate to the project directory:
+'''bash
 cd invest-vault
-Install dependencies:
+3. Install dependencies:
 bash
 Copy
 npm install
-Start the development server:
+4. Start the development server:
 bash
 Copy
 npm start
-Tech Stack
-Frontend: React.js
-Backend: Node.js, Express.js
-Database: MongoDB
-AI Chatbot: Python, NLP
-Authentication: Firebase/Auth0
+5. Tech Stack
+-Frontend: React.js
+-Backend: Node.js, Express.js
+-Database: Fitrebase
+-AI Chatbot: Python, NLP
+-Authentication: Firebase/Auth0
 Future Enhancements
 Implement blockchain for secure investment transactions.
 Introduce more advanced AI-driven investment predictions.
